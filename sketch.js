@@ -29,7 +29,7 @@ function draw() {
 
 function entity () {
   this.type = random(types);
-  this.size = 70;
+  this.size = floor((windowWidth+windowHeight)/40);
   this.radius = floor(this.size / 2);
   this.pos = createVector(random(this.size, width-this.radius), random(this.size, height-this.radius));
 
