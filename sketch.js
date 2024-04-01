@@ -95,7 +95,7 @@ for(i=0; i<types.length; i++) {
   if(allmatch) {
     
     rect(width/4, height/4, width/2, height/2);
-    textSize(floor(((width/4)+(height/4))/10));
+    textSize(floor(((width/4)+(height/4))/13));
     text(types[i] + " wins :D", width/2, height/2);
     return true;
   }
