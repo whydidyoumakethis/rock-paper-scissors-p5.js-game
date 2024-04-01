@@ -93,8 +93,9 @@ for(i=0; i<types.length; i++) {
     }
   }
   if(allmatch) {
-    textSize(50);
+    
     rect(width/4, height/4, width/2, height/2);
+    textSize(floor((windowWidth+windowHeight)/20));
     text(types[i] + " wins :D", width/2, height/2);
     return true;
   }
